@@ -80,7 +80,7 @@ body{
     letter-spacing: 0.9px;
 }
 .tab table{
-    width: 100%;
+    /* width: 100%; */
     text-align: center;
     margin: 15px 0;
 }
@@ -91,7 +91,7 @@ th , td{
     padding: 5px;
 }
 .tab .upd{
-    width: 60%;
+    /* width: 60%; */
     background-color:#ffc107;
     border: none;
     padding: 5px 15px;
@@ -99,7 +99,7 @@ th , td{
 }
 
 .tab .del{
-    width: 60%;
+    /* width: 60%; */
 
     background-color:#dc3545;
     border: none;
@@ -113,3 +113,19 @@ th , td{
 }
 
 
+
+  .tab {
+    overflow-x: auto;
+  }
+  table {
+    width: 100%;
+  }
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+  }
+  /* media query for screens smaller than 600px */
+  @media only screen and (max-width: 600px) {
+   
+  }
